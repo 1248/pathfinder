@@ -1,11 +1,15 @@
 {
-  "name": "pathfinder",
+  "name": "hypercat-pathfinder",
   "version": "0.0.1",
-  "description": "IoT Hub",
+  "description": "HyperCat Catalogue Server",
   "main": "api.js",
   "scripts": {
     "start": "nodemon lib/api.js",
     "test": "node_modules/jshint/bin/jshint lib/*.js && node tools/emptydb.js && node_modules/mocha/bin/mocha -t 15000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/1248/pathfinder.git"
   },
   "author": "Toby Jaffey <toby@1248.io>",
   "devDependencies": {
